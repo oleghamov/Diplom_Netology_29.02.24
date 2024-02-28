@@ -1,0 +1,5 @@
+---
+- name: Install kibana
+  hosts: 192.168.30.103
+  roles:
+  - kibana

@@ -1,0 +1,36 @@
+---
+- name: Downloading the filebeat package from the yandex repository
+  get_url:
+    url: https://mirror.yandex.ru/mirrors/elastic/8/pool/main/f/filebeat/filebeat-8.9.2-amd64.deb
+    dest: /tmp
+
+- name: Installing the downloaded filebeat package
+  apt:
+    deb: /tmp/filebeat-8.9.2-amd64.deb
+
+- name: Copying the configuration files
+  copy:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+  loop:
+    - src: ../templates/filebeat.yml
+      dest: /etc/filebeat/
+      mode: '-rw-r--r--'
+      owner: root
+      group: root
+    - src: ../modules.d/system.yml.disabled
+      dest: /etc/filebeat/modules.d/
+      mode: '-rw-r--r--'
+      owner: root
+      group: root
+    - src: ../modules.d/nginx.yml.disabled
+      dest: /etc/filebeat/modules.d/
+      mode: '-rw-r--r--'
+      owner: root
+      group: root
+
+ - name: Adding a service to startup and starting the filebeat service
+  systemd:
+    name: filebeat
+    state: started
+    enabled: yes

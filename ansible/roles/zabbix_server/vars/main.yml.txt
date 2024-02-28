@@ -1,0 +1,8 @@
+---
+DBName: zabbix
+login_user: root
+rootPass: zabbix
+DBUser: Admin
+DBPassword: zabbix
+DBHost: localhost
+zabbixServer: 192.168.30.102

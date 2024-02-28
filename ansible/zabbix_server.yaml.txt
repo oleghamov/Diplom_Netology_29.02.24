@@ -1,0 +1,5 @@
+---
+- name: Install zabbix server
+  hosts: 192.168.30.102
+  roles:
+  - zabbix_server

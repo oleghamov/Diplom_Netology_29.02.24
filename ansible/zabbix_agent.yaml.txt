@@ -1,0 +1,5 @@
+---
+- name: Install zabbix agent
+  hosts: 192.168.10.100, 192.168.20.100
+  roles:
+  - zabbix_agent

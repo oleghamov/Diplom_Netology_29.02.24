@@ -1,0 +1,5 @@
+---
+- name: Install elasticsearch
+  hosts: 192.168.30.101
+  roles:
+  - elasticsearch

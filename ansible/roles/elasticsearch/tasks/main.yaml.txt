@@ -1,0 +1,26 @@
+---
+- name: Downloading the elasticsearch package from the yandex repository
+  get_url:
+    url: https://mirror.yandex.ru/mirrors/elastic/8/pool/main/e/elasticsearch/elasticsearch-8.9.2-amd64.deb
+    dest: /tmp
+
+
+- name: Installing the downloaded elasticsearch package
+  apt:
+    deb: /tmp/elasticsearch-8.9.2-amd64.deb
+
+
+- name: Copying the configuration file
+  copy:
+    src: ../templates/elasticsearch.yml
+    dest: /etc/elasticsearch
+    mode: 0660
+    owner: root
+    group: elasticsearch
+
+- name: Adding a service to startup and starting the elasticsearch service
+  systemd:
+    name: elasticsearch
+    enabled: yes
+    state: started
+    daemon_reload: yes

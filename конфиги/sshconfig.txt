@@ -1,0 +1,28 @@
+Host bastion
+  ProxyCommand ssh -W %h:%p user@51.250.38.42
+  IdentityFile ~/.ssh/id_rsa
+
+Host bastion
+  Hostname user@51.250.38.42
+#  Port 22
+  User user
+  IdentityFile ~/.ssh/id_rsa
+#  ControlMaster auto
+#  ControlPath ~/.ssh/ansible-%r@%h:%p
+#  ControlPersist 60m
+
+
+Host 192.168.10.100
+  ProxyCommand ssh user@51.250.38.42 -W %h:%p
+
+Host 192.168.20.100
+  ProxyCommand ssh user@51.250.38.42 -W %h:%p
+
+Host 192.168.30.101
+  ProxyCommand ssh user@51.250.38.42 -W %h:%p
+
+Host 192.168.30.102
+  ProxyCommand ssh user@51.250.38.42 -W %h:%p
+
+Host 192.168.30.103
+  ProxyCommand ssh user@51.250.38.42 -W %h:%p

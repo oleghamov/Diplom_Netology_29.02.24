@@ -4,15 +4,19 @@
 
 Для развёртки инфраструктуры использовал Terraform и Ansible.
 
-[7 terraform apply.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/7%20terraform%20apply.png)`
+![7 terraform apply.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/7%20terraform%20apply.png)`
 
 ![Снимок экрана (127).png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(127).png)`
 
 ![1 Ansible -m ping all.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/1%20Ansible%20-m%20ping%20all.png)`
 
-https://console.cloud.yandex.ru/folders/b1ghbnq9ceq4ecm8iu4v
-YandexCloud
-b1gb8p8hcmajtt714th5  id облака
+
+   - https://console.cloud.yandex.ru/folders/b1ghbnq9ceq4ecm8iu4v
+
+   - YandexCloud
+
+   - id облака:   b1gb8p8hcmajtt714th5
+
 
 Сайт
 
@@ -55,8 +59,10 @@ b1gb8p8hcmajtt714th5  id облака
 ![2 curl -v 158.160.151.22380.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/2%20curl%20-v%20158.160.151.22380.png)`
 
 
-http://158.160.151.223:80
-LoadBalanser
+  - http://158.160.151.223:80
+
+  - LoadBalanser
+
 
 ### Задание 2
 
@@ -72,9 +78,12 @@ LoadBalanser
 
 ![9 Zabbix configuration hosts.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/9%20Zabbix%20configuration%20hosts.png)`
 
-http://51.250.46.21/zabbix
-Логин: Admin
-Пароль: zabbix
+  - http://51.250.46.21/zabbix
+
+  - Логин: Admin
+
+  - Пароль: zabbix
+
 
 Настроил дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам. Добавил необходимые tresholds на соответствующие графики.
 
@@ -106,8 +115,9 @@ Cоздал ВМ, развернул на ней Elasticsearch. Установи
 
 ![kibana.yaml.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/kibana.yaml.png)`
 
-http://51.250.47.34:5601 
-Kibana
+  - http://51.250.47.34:5601
+ 
+  - Kibana
 
 ![GET _catindices.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/GET%20_catindices.png)`
 

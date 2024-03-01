@@ -4,7 +4,7 @@
 
 Для развёртки инфраструктуры использовал Terraform и Ansible.
 
-![7 terraform apply.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/7%20terraform%20apply.png)`
+![7terraform apply.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/7terraform%20apply.png)`
 
 ![Снимок экрана (127).png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(127).png)`
 

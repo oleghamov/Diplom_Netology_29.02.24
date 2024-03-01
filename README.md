@@ -4,9 +4,15 @@
 
 Для развёртки инфраструктуры использовал Terraform и Ansible.
 
+[7 terraform apply.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/7%20terraform%20apply.png)`
+
 ![Снимок экрана (127).png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(127).png)`
 
 ![1 Ansible -m ping all.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/1%20Ansible%20-m%20ping%20all.png)`
+
+https://console.cloud.yandex.ru/folders/b1ghbnq9ceq4ecm8iu4v
+YandexCloud
+b1gb8p8hcmajtt714th5  id облака
 
 Сайт
 
@@ -15,6 +21,8 @@
 ![Виртуальные машины.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/%D0%92%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D1%8B.png)`
 
 ![nginx.yaml.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/nginx.yaml.png)`
+
+![8 Welcome to nginx!.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/8%20Welcome%20to%20nginx!.png)`
 
 Использовал набор статичных файлов для сайта.
 
@@ -42,9 +50,13 @@
 
 ![Карта балансировки.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8.png)`
 
-Протестируйте сайт curl -v <публичный IP балансера>:80
+Протестировал сайт curl -v <публичный IP балансера>:80
 
-![]()`
+![2 curl -v 158.160.151.22380.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/2%20curl%20-v%20158.160.151.22380.png)`
+
+
+http://158.160.151.223:80
+LoadBalanser
 
 ### Задание 2
 
@@ -58,11 +70,19 @@
 
 ![http51.250.44.181zabbixsetup.php.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/http51.250.44.181zabbixsetup.php.png)`
 
+![9 Zabbix configuration hosts.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/9%20Zabbix%20configuration%20hosts.png)`
+
+http://51.250.46.21/zabbix
+Логин: Admin
+Пароль: zabbix
+
 Настроил дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам. Добавил необходимые tresholds на соответствующие графики.
 
-![zabbix dashbord.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/zabbix%20dashbord.png)`
+![10 Zabbix dashboard!.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/10%20Zabbix%20dashboard!.png)`
 
 ![дашбоард заббикса.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D0%B0%D1%80%D0%B4%20%D0%B7%D0%B0%D0%B1%D0%B1%D0%B8%D0%BA%D1%81%D0%B0.png)`
+
+![11 Zabbix: Latest data.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/11%20Zabbix%3A%20Latest%20data.png)`
 
 ### Задание 3
 
@@ -72,11 +92,22 @@ Cоздал ВМ, развернул на ней Elasticsearch. Установи
 
 ![elasticsearch.yaml.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/elasticsearch.yaml.png)`
 
+![1 Curl cluster healt.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/1%20Curl%20cluster%20healt.png)`
+
+![3 Curl Xget.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/3%20Curl%20Xget.png)`
+
 ![filebeat.yaml.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/filebeat.yaml.png)`
+
+![4 filebeat test output web1.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/4%20filebeat%20test%20output%20web1.png)`
+
+![5 filebeat test output web2.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/5%20filebeat%20test%20output%20web2.png)`
 
 Создал ВМ, развернул на ней Kibana, сконфигурировал соединение с Elasticsearch.
 
 ![kibana.yaml.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/kibana.yaml.png)`
+
+http://51.250.47.34:5601 
+Kibana
 
 ![GET _catindices.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/GET%20_catindices.png)`
 
@@ -108,7 +139,7 @@ Cоздал ВМ, развернул на ней Elasticsearch. Установи
 
 Настроил ВМ с публичным адресом, в которой открыт только один порт — ssh. bastion host
 
-![]()`
+![13 Разрешение на подключение к ВМ bastion по SSH из сети Интернет.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/13%20%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20%D0%92%D0%9C%20bastion%20%D0%BF%D0%BE%20SSH%20%D0%B8%D0%B7%20%D1%81%D0%B5%D1%82%D0%B8%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82.png)`
 
 ### Задание 5
 
@@ -116,9 +147,10 @@ Cоздал ВМ, развернул на ней Elasticsearch. Установи
 
 Создал snapshot дисков всех ВМ. Ограничил время жизни snaphot в неделю. Сами snaphot настроил на ежедневное копирование.
 
-![]()`
+![12 Диски HDD.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/12%20%D0%94%D0%B8%D1%81%D0%BA%D0%B8%20HDD.png)`
 
-![]()`
+![6 snapshot.png](https://github.com/oleghamov/Diplom_Netology_29.02.24/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0/6%20snapshot.png)`
+
 
 
 

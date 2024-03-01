@@ -1,0 +1,13 @@
+http://51.250.46.21/zabbix
+Логин: Admin
+Пароль: zabbix
+
+http://51.250.47.34:5601 
+Kibana
+
+http://158.160.148.84:80
+LoadBalanser
+
+https://console.cloud.yandex.ru/folders/b1ghbnq9ceq4ecm8iu4v
+YandexCloud
+b1gb8p8hcmajtt714th5  id облака

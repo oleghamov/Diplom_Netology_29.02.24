@@ -1,0 +1,26 @@
+127.0.0.1       localhost
+
+127.0.1.1       debian
+
+192.168.10.100 website1.ru-central1.internal website1
+
+192.168.20.100 website2.ru-central1.internal website2
+
+192.168.30.101 elasticsearch.ru-central1.internal elasticsearch
+
+192.168.30.102 zabbix.ru-central1.internal zabbix
+
+192.168.30.103 kibana.ru-central1.internal kibana
+
+192.168.40.100 bastion.ru-central1.internal bastion
+
+
+
+# The following lines are desirable for IPv6 capable hosts
+
+::1     localhost ip6-localhost ip6-loopback
+
+ff02::1 ip6-allnodes
+
+ff02::2 ip6-allrouters
+
